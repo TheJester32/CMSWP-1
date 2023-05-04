@@ -19,7 +19,7 @@
                             </div>
                          </li>
                     <li class= "footer-social-item telephone">
-                         <a class="contact-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
+                         <a class="contact-phone" href="tel:+78128121212"> <?php the_field('phone') ?> </a>
                         </li>
                          <li class="footer-social-item site">
                               <a class="button" href="https://htmlacademy.ru">
