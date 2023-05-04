@@ -88,10 +88,7 @@ Template Name: home
                     </div>
                       <div class="mailing-form-container">
                     <form class="mailing-form" action="https://echo.htmlacademy.ru/" method="post">
-                         <p class="mailing-form">
-                              <input type="text" class="text" name="enter-email" placeholder="Ваш e-mail" />
-                         </p>
-                         <button class="button-subscribe" type="submit">Подписаться</button>
+                      <?php echo do_shortcode('[contact-form-7 id="19" title="Контактная форма"]') ?>
                     </form>
                   </div>
                </section>
